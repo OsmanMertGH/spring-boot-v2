@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-07-SpringBoot-Demo" />
+        <module name="spring-09-MVC-Model-V2" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
       </profile>
@@ -15,6 +17,7 @@
       <module name="spring-07-SpringBoot-Demo" target="11" />
       <module name="spring-08-MVC-Controller" target="11" />
       <module name="spring-09-MVC-Model" target="11" />
+      <module name="spring-09-MVC-Model-V2" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +25,7 @@
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-09-MVC-Model" options="-parameters" />
+      <module name="spring-09-MVC-Model-V2" options="-parameters" />
     </option>
   </component>
 </project>
