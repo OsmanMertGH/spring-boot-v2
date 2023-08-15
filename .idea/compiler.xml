@@ -19,7 +19,7 @@
       <module name="spring-08-MVC-Controller" target="11" />
       <module name="spring-09-MVC-Model" target="11" />
       <module name="spring-09-MVC-Model-V2" target="17" />
-      <module name="spring-10-Thymeleaf" target="17" />
+      <module name="spring-10-Thymeleaf" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
