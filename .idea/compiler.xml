@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-07-SpringBoot-Demo" />
+        <module name="spring-10-Thymeleaf" />
         <module name="spring-09-MVC-Model-V2" />
         <module name="spring-09-MVC-Model" />
         <module name="spring-08-MVC-Controller" />
@@ -18,6 +19,7 @@
       <module name="spring-08-MVC-Controller" target="11" />
       <module name="spring-09-MVC-Model" target="11" />
       <module name="spring-09-MVC-Model-V2" target="17" />
+      <module name="spring-10-Thymeleaf" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-09-MVC-Model" options="-parameters" />
       <module name="spring-09-MVC-Model-V2" options="-parameters" />
+      <module name="spring-10-Thymeleaf" options="-parameters" />
     </option>
   </component>
 </project>
